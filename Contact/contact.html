@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form with thead / tbody / tfoot</title>
+</head>
+<body>
+
+  <h1>Please Fill Contact Form</h1>
+
+    <form>
+        <table border="1" cellpadding="5" >
+            <thead>
+                <tr>
+                    <th colspan="2">
+                        Author Will Contact You Soon
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="name">Name </label></td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="lastname">Last Name </label></td>
+                    <td><input type="text" name="lastname"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>  
+                    <td><input type="text" name="email" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="Address">Address</label></td>  
+                    <td ><input type="text" name="Address" id=""></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <input type="radio" name="Gender" value ="Male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="Gender" value="Female" id="">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2" align="center"> Please fill this form carefully
+                        <br>
+                    <input type="submit" name="" id=""></td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+
+</body>
+</html>
